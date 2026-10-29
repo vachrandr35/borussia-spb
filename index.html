@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Боруссия — статистика</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: var(--tg-theme-bg-color, #fff);
+      color: var(--tg-theme-text-color, #000);
+    }
+    h1 { font-size: 20px; margin: 0 0 4px; }
+    .logo { width: 48px; height: 48px; object-fit: contain; display: block; margin-bottom: 8px; }
+    .subtitle { font-size: 13px; opacity: 0.7; margin-bottom: 16px; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+    .tabs button {
+      border: 1px solid var(--tg-theme-hint-color, #888);
+      background: transparent;
+      color: inherit;
+      border-radius: 14px;
+      padding: 6px 10px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .tabs button.active {
+      background: var(--tg-theme-button-color, #2481cc);
+      color: var(--tg-theme-button-text-color, #fff);
+      border-color: transparent;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { text-align: left; padding: 8px 4px; border-bottom: 1px solid rgba(128,128,128,0.25); }
+    th.num, td.num { text-align: right; width: 48px; }
+    .empty { opacity: 0.6; font-size: 14px; padding: 12px 0; }
+  </style>
+</head>
+<body>
+  <img class="logo" src="emblem.svg" alt="Эмблема">
+  <h1 id="team">Боруссия</h1>
+  <div class="subtitle">Статистика команды</div>
+
+  <div class="tabs">
+    <button data-key="goals" class="active">Голы</button>
+    <button data-key="assists">Ассисты</button>
+    <button data-key="motm">Лучший игрок матча</button>
+    <button data-key="squad_of_week">Сборная тура</button>
+  </div>
+
+  <div id="content" class="empty">Загрузка данных…</div>
+
+  <script>
+    const LABELS = {
+      goals: "Голы",
+      assists: "Ассисты",
+      motm: "Лучший игрок матча",
+      squad_of_week: "Сборная тура"
+    };
+    let data = null;
+    let currentKey = "goals";
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[c]));
+    }
+
+    function render() {
+      const content = document.getElementById("content");
+      if (!data || !Array.isArray(data.players)) {
+        content.className = "empty";
+        content.textContent = "Не удалось загрузить данные.";
+        return;
+      }
+      const rows = data.players
+        .map(p => ({ name: p.surname + " " + p.name, value: Number(p[currentKey]) || 0 }))
+        .filter(r => r.value > 0)
+        .sort((a, b) => b.value - a.value || a.name.localeCompare(b.name, "ru"));
+
+      if (rows.length === 0) {
+        content.className = "empty";
+        content.textContent = "Пока нет данных: «" + LABELS[currentKey] + "».";
+        return;
+      }
+
+      content.className = "";
+      content.innerHTML =
+        "<table><thead><tr><th>Игрок</th><th class='num'>" + escapeHtml(LABELS[currentKey]) + "</th></tr></thead><tbody>" +
+        rows.map(r => "<tr><td>" + escapeHtml(r.name) + "</td><td class='num'>" + r.value + "</td></tr>").join("") +
+        "</tbody></table>";
+    }
+
+    document.querySelectorAll(".tabs button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".tabs button").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        currentKey = btn.dataset.key;
+        render();
+      });
+    });
+
+    if (window.Telegram && window.Telegram.WebApp) {
+      window.Telegram.WebApp.ready();
+      window.Telegram.WebApp.expand();
+    }
+
+    fetch("data.json", { cache: "no-store" })
+      .then(r => r.json())
+      .then(json => {
+        data = json;
+        if (json.team) document.getElementById("team").textContent = json.team;
+        render();
+      })
+      .catch(() => {
+        data = null;
+        render();
+      });
+  </script>
+</body>
+</html>

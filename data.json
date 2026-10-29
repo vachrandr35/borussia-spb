@@ -1,0 +1,23 @@
+{
+  "team": "Боруссия",
+  "admin": "Вахрушев Андрей",
+  "players": [
+    { "surname": "Анелька", "name": "Кристиан", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Буднев", "name": "Артем", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Вахрушев", "name": "Андрей", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Голубев", "name": "Александр", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Иванов", "name": "Георгий", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Крутицкий", "name": "Александр", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Ломакин", "name": "Сергей", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Меркушев", "name": "Виктор", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Митраков", "name": "Михаил", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Мусаев", "name": "Мусабек", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Рустамов", "name": "Балаган", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Рустамов", "name": "Мураз", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Семин", "name": "Михаил", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Семин", "name": "Никита", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Сергеенко", "name": "Максим", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Смородин", "name": "Дмитрий", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Туров", "name": "Алексей", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 }
+  ]
+}
