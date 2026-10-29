@@ -3,7 +3,7 @@
   "admin": "Вахрушев Андрей",
   "players": [
     { "surname": "Анелька", "name": "Кристиан", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
-    { "surname": "Буднев", "name": "Артем", "goals": 2, "assists": 1, "motm": 0, "squad_of_week": 0 },
+    { "surname": "Буднев", "name": "Артем", "goals": 1, "assists": 1, "motm": 0, "squad_of_week": 0 },
     { "surname": "Вахрушев", "name": "Андрей", "goals": 7, "assists": 15, "motm": 2, "squad_of_week": 6 },
     { "surname": "Голубев", "name": "Александр", "goals": 2, "assists": 1, "motm": 1, "squad_of_week": 0 },
     { "surname": "Иванов", "name": "Георгий", "goals": 0, "assists": 1, "motm": 0, "squad_of_week": 0 },
@@ -12,12 +12,12 @@
     { "surname": "Меркушев", "name": "Виктор", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
     { "surname": "Митраков", "name": "Михаил", "goals": 1, "assists": 2, "motm": 1, "squad_of_week": 1 },
     { "surname": "Мусаев", "name": "Мусабек", "goals": 14, "assists": 3, "motm": 1, "squad_of_week": 2 },
-    { "surname": "Рустамов", "name": "Балаган", "goals": 1, "assists": 5, "motm": 1, "squad_of_week": 0 },
+    { "surname": "Рустамов", "name": "Балаган", "goals": 1, "assists": 6, "motm": 1, "squad_of_week": 0 },
     { "surname": "Рустамов", "name": "Мураз", "goals": 34, "assists": 3, "motm": 3, "squad_of_week": 6 },
     { "surname": "Семин", "name": "Михаил", "goals": 1, "assists": 1, "motm": 1, "squad_of_week": 0 },
     { "surname": "Семин", "name": "Никита", "goals": 1, "assists": 0, "motm": 0, "squad_of_week": 0 },
     { "surname": "Сергеенко", "name": "Максим", "goals": 0, "assists": 0, "motm": 1, "squad_of_week": 1 },
     { "surname": "Смородин", "name": "Дмитрий", "goals": 2, "assists": 3, "motm": 1, "squad_of_week": 3 },
-    { "surname": "Туров", "name": "Алексей", "goals": 1, "assists": 3, "motm": 0, "squad_of_week": 1 }
+    { "surname": "Туров", "name": "Алексей", "goals": 2, "assists": 3, "motm": 0, "squad_of_week": 1 }
   ]
 }
