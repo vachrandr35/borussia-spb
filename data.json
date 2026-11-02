@@ -18,7 +18,7 @@
     { "surname": "Голубев", "name": "Александр", "photo": "golubev_alexander.jpg", "goals": 2, "assists": 1, "motm": 1, "squad_of_week": 0 },
     { "surname": "Иванов", "name": "Георгий", "photo": "", "goals": 0, "assists": 1, "motm": 0, "squad_of_week": 0 },
     { "surname": "Крутицкий", "name": "Александр", "photo": "krutitsky_alexandr.jpg", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
-    { "surname": "Ломакин", "name": "Сергей", "photo": "lomakin_sergei.jpg", "goals": 2, "assists": 2, "motm": 2, "squad_of_week": 2 },
+    { "surname": "Ломакин", "name": "Сергей", "photo": "lomakin_sergei.jpg", "goals": 2, "assists": 2, "motm": 2, "squad_of_week": 3 },
     { "surname": "Меркушев", "name": "Виктор", "photo": "", "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0 },
     { "surname": "Митраков", "name": "Михаил", "photo": "mitrakov_mikhail.jpg", "goals": 1, "assists": 2, "motm": 1, "squad_of_week": 1 },
     { "surname": "Мусаев", "name": "Мусабек", "photo": "", "goals": 14, "assists": 3, "motm": 1, "squad_of_week": 2 },
@@ -28,6 +28,6 @@
     { "surname": "Семин", "name": "Никита", "photo": "semin_nikita.jpg", "goals": 1, "assists": 0, "motm": 0, "squad_of_week": 0 },
     { "surname": "Сергеенко", "name": "Максим", "photo": "", "goals": 0, "assists": 0, "motm": 1, "squad_of_week": 1 },
     { "surname": "Смородин", "name": "Дмитрий", "photo": "smorodin_dmitriy.jpg", "goals": 2, "assists": 3, "motm": 1, "squad_of_week": 3 },
-    { "surname": "Туров", "name": "Алексей", "photo": "turov_alexey.jpg", "goals": 2, "assists": 3, "motm": 0, "squad_of_week": 1 }
+    { "surname": "Туров", "name": "Алексей", "photo": "turov_alexey.jpg", "goals": 2, "assists": 3, "motm": 0, "squad_of_week": 2 }
   ]
 }
