@@ -26,7 +26,7 @@
     { "surname": "Рустамов", "name": "Мураз", "photo": "rustamov_muraz.jpg", "matches": 28, "goals": 36, "assists": 3, "motm": 3, "squad_of_week": 6, "yellow_cards": 11, "red_cards": 0 },
     { "surname": "Семин", "name": "Михаил", "photo": "semin_mikhail.jpg", "matches": 3, "goals": 1, "assists": 1, "motm": 1, "squad_of_week": 0, "yellow_cards": 1, "red_cards": 0 },
     { "surname": "Семин", "name": "Никита", "photo": "semin_nikita.jpg", "matches": 7, "goals": 1, "assists": 0, "motm": 0, "squad_of_week": 0, "yellow_cards": 1, "red_cards": 0 },
-    { "surname": "Сергеенко", "name": "Максим", "photo": "", "matches": 0, "goals": 10, "assists": 0, "motm": 1, "squad_of_week": 1, "yellow_cards": 2, "red_cards": 1 },
+    { "surname": "Сергеенко", "name": "Максим", "photo": "", "matches": 10, "goals": 0, "assists": 0, "motm": 1, "squad_of_week": 1, "yellow_cards": 2, "red_cards": 1 },
     { "surname": "Смородин", "name": "Дмитрий", "photo": "smorodin_dmitriy.jpg", "matches": 29, "goals": 2, "assists": 3, "motm": 1, "squad_of_week": 3, "yellow_cards": 7, "red_cards": 0 },
     { "surname": "Туров", "name": "Алексей", "photo": "turov_alexey.jpg", "matches": 8, "goals": 2, "assists": 3, "motm": 0, "squad_of_week": 2, "yellow_cards": 0, "red_cards": 0 }
   ]
