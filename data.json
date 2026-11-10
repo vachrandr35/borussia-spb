@@ -13,7 +13,7 @@
   ],
   "players": [
     { "surname": "Анелька", "name": "Кристиан", "photo": "", "matches": 4, "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0, "yellow_cards": 0, "red_cards": 0 },
-    { "surname": "Буднев", "name": "Артем", "photo": "budnev_artem.jpg", "matches": 5, "goals": 1, "assists": 1, "motm": 0, "squad_of_week": 0, "yellow_cards": 0, "red_cards": 0 },
+    { "surname": "Буднев", "name": "Артем", "photo": "budnev_artem.jpg", "matches": 5, "goals": 1, "assists": 1, "motm": 0, "squad_of_week": 0, "yellow_cards": 1, "red_cards": 0 },
     { "surname": "Вахрушев", "name": "Андрей", "photo": "vakhrushev_andrey.jpg", "matches": 25, "goals": 7, "assists": 15, "motm": 2, "squad_of_week": 6, "yellow_cards": 4, "red_cards": 0 },
     { "surname": "Голубев", "name": "Александр", "photo": "golubev_alexander.jpg", "matches": 3, "goals": 2, "assists": 1, "motm": 1, "squad_of_week": 0, "yellow_cards": 0, "red_cards": 0 },
     { "surname": "Иванов", "name": "Георгий", "photo": "", "matches": 6, "goals": 0, "assists": 1, "motm": 0, "squad_of_week": 0, "yellow_cards": 1, "red_cards": 0 },
