@@ -19,7 +19,7 @@
     { "surname": "Иванов", "name": "Георгий", "photo": "", "matches": 6, "goals": 0, "assists": 1, "motm": 0, "squad_of_week": 0, "yellow_cards": 1, "red_cards": 0 },
     { "surname": "Крутицкий", "name": "Александр", "photo": "krutitsky_alexandr.jpg", "matches": 11, "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0, "yellow_cards": 0, "red_cards": 0 },
     { "surname": "Ломакин", "name": "Сергей", "photo": "lomakin_sergei.jpg", "matches": 26, "goals": 2, "assists": 2, "motm": 2, "squad_of_week": 3, "yellow_cards": 0, "red_cards": 0 },
-    { "surname": "Меркушев", "name": "Виктор", "photo": "", "matches": 4, "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0, "yellow_cards": 0, "red_cards": 0 },
+    { "surname": "Меркушев", "name": "Виктор", "photo": "merkushev_victor.jpg", "matches": 4, "goals": 0, "assists": 0, "motm": 0, "squad_of_week": 0, "yellow_cards": 0, "red_cards": 0 },
     { "surname": "Митраков", "name": "Михаил", "photo": "mitrakov_mikhail.jpg", "matches": 11, "goals": 1, "assists": 2, "motm": 1, "squad_of_week": 2, "yellow_cards": 2, "red_cards": 0 },
     { "surname": "Мусаев", "name": "Мусабек", "photo": "", "matches": 20, "goals": 14, "assists": 3, "motm": 1, "squad_of_week": 2, "yellow_cards": 11, "red_cards": 1 },
     { "surname": "Рустамов", "name": "Балаган", "photo": "rustamov_balagan.jpg", "matches": 7, "goals": 1, "assists": 6, "motm": 1, "squad_of_week": 0, "yellow_cards": 5, "red_cards": 1 },
